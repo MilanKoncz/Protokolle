@@ -2,7 +2,9 @@
 public class Main {
 
 	public static void main(String args[]) {
-		TCPIPConnection tcip0 = new TCPIPConnection("time.fu-berlin.de", 13);
-		tcip0.servernachrichtAusgeben();
+		
+		Daytime_Server dts = new Daytime_Server();
+		Daytime_Client client = new Daytime_Client("127.0.0.1");
+		
 	}
 }
