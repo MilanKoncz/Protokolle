@@ -3,8 +3,8 @@ public class Main {
 
 	public static void main(String args[]) {
 		
-		Daytime_Server dts = new Daytime_Server();
-		Daytime_Client client = new Daytime_Client("127.0.0.1");
+		QOTD_Server server = new QOTD_Server();
+		QOTD_Client client = new QOTD_Client("127.0.0.1");
 		
 	}
 }

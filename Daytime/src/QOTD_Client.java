@@ -13,8 +13,4 @@ public class QOTD_Client extends Client{
 		
 	}
 	
-	public static void main(String args[]) {
-		QOTD_Client qodt = new QOTD_Client("qotd.nngn.net");
-	}
-	
 }
